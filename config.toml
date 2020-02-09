@@ -1,0 +1,4 @@
+baseURL = "http://hassaanpasha.com"
+languageCode = "en-us"
+title = "Hassaan | Pasha"
+theme = "hugo-theme-yinyang"
