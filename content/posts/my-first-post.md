@@ -1,7 +1,7 @@
 ---
 title: "The Beginning..."
 date: 2020-02-03T19:27:20+05:00
-draft: true
+draft: false
 categories: ["Growth"]
 ---
 
