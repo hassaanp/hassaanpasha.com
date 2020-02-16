@@ -1,7 +1,7 @@
 ---
 title: "The Journey So Far"
 date: 2020-02-16T12:50:56+05:00
-draft: true
+draft: false
 ---
 
 # Introduction
