@@ -1,10 +1,11 @@
 ---
 title: "My First Open Source Software Contribution"
 date: 2020-02-17T20:10:32+05:00
-draft: false
+draft: true
 ---
 
 # Introduction
+
 Hi,
 
 In this post, I will explain the why and how for contributing to Open Source software by sharing my own experience.
@@ -12,6 +13,7 @@ In this post, I will explain the why and how for contributing to Open Source sof
 I am Hassaan. I am a software engineer from Islamabad, Pakistan. This is my personal blog/journal. If you are just getting here, read my [first post](https://hassaanpasha.com/posts/my-first-post/) to know why I started writing.
 
 # Why did I decide to contribute to Open Source?
+
 Dedicating time and effort to help grow the tools that you use is innately rewarding. You take ownership of said software/tool and give back by making it better for others who use it.
 
 It doesn't have to be so altruistic. There are other benefits behind starting your open source journey. Having a solid profile acts like a portfolio that can show potential employers how you communicate with others to triage issues, your interests and of course, how you solve problems.
@@ -23,6 +25,7 @@ All the software companies I have worked with have had private repositories. Som
 My Github has been mostly silent since the last 5 years with a few occasional bursts when I may have pushed my own code and did a few experiments. Otherwise, I have a grayed out contributions map. That was until recently, when I started my own journey towards contributing to Open Source.
 
 # How did I start?
+
 I was having a discussion a couple weeks back with a couple of friends about if we should start contributing to Open Source. The problem was, we did not know where to start. So I searched on Google and came across a couple of links that seemed promising.
 
 1. [Awesome First PR Opportunities](https://github.com/MunGell/awesome-for-beginners)
@@ -47,6 +50,7 @@ The next day, my code had merged and I had that glorious green square staring ba
 Since that day, I have had 4 pull requests merged and 1 pending review. It just took me one day to start contributing to Open Source. If I can, so can you. You just have to make that decision and work proactively.
 
 # What's next?
+
 I plan on taking on more challenging issues in the FreeCodeCamp repository and become a dedicated contributor there.
 
 I will also start exploring other libraries/tools that I have used or use and try to contribute to one other repository in the coming month.
