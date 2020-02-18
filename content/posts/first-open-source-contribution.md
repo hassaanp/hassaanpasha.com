@@ -1,6 +1,6 @@
 ---
-title: "My First Open Source Software Contribution"
-date: 2020-02-17T20:10:32+05:00
+title: "My First Open Source Contribution"
+date: 2020-02-18T09:30:41+05:00
 draft: false
 ---
 
