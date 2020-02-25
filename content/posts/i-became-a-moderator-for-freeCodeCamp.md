@@ -1,7 +1,7 @@
 ---
 title: "I Became a Moderator for FreeCodeCamp"
 date: 2020-02-25T13:21:40+05:00
-draft: true
+draft: false
 ---
 
 # Updates from my Opensource Journey
