@@ -1,5 +1,5 @@
 ---
-title: "Deep Copy Implementation in Javascript"
+title: "Deep Copy Implementation in JavaScript"
 date: 2020-03-04T13:20:21+05:00
 draft: false
 ---
