@@ -1,7 +1,7 @@
 ---
 title: "Deep Dive Into Object Oriented Programming in JavaScript"
 date: 2020-03-07T13:10:01+05:00
-draft: true
+draft: false
 ---
 
 # Introduction
@@ -148,7 +148,7 @@ const book1 = new CreateBook("Curtains", "Agatha Christie", "Mystery");
 Here is what `new` does:
 
 1. declares an empty object called `this`.
-2. links the `__proto__` property of the empty object to the prototype object of the parent object.
+2. links the `__proto__` property of the empty object to the prototype object in the parent object.
 3. returns the `this` object.
 
 The benefit of using this approach is that it is slightly faster to write and it is fairly standard practice in real world code.
@@ -167,13 +167,13 @@ CreateBook.prototype = function(){
 }
 ```
 
-Something you should keep in mind, `this` refers to the context of the function that calls the method i.e the function on the LHS preceding the dot. Since the print function has no caller, `this` inside it, is instead pointing to the global context.
+Something you should keep in mind, `this` refers to the context of the function that calls the method i.e the object preceding the dot. Since the print function is called without this notation, `this` is instead pointing to the global context (`window` in the browser).
 
-According the Will Sentance from CodeSmith, this is considered as the biggest 'gotcha' in JavaScript's Object Oriented Programming.
+According the [Will Sentance](https://twitter.com/willsentance) from CodeSmith, this is considered as the biggest 'gotcha' in JavaScript's Object Oriented Programming.
 
-To fix this, you can use the arrow functions which conserve the value of `this` where it is decided by the enclosing lexical scope.
+To fix this, you can use the arrow functions which conserve the value of `this` where it is decided by the enclosing lexical scope. Before arrow functions, we had to call the .bind method to set the context of the method.
 
-To learn more about the `this` keyword, go to the [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this).
+To learn more about the `this` keyword, go to [this MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this).
 
 # The `class` keyword
 
@@ -218,6 +218,6 @@ This means you now understand the inner workings of Object Oriented Programming 
 
 Give yourself a pat on the back.
 
-I hope this was useful to you. My purpose was to reinforce my own learning and also help anyone else who wants to wrap their heads around the underlying workings of JavaScript.
+I hope this was useful to you. My purpose was to reinforce my own learning and also, to help anyone else who wants to wrap their heads around the underlying workings of JavaScript.
 
 Thanks for reading and have a good day.
