@@ -29,12 +29,12 @@ I thought this was going to be cake, and so I waited.
 
 # Scrambling to Build the New Version
 
-It was around 6PM on March 17th that I was able to pull in the latest OpenSSL tar file. My test run had me prepared. A update guide was available that laid down how to go about this. I followed it to the T.
+It was around 6PM on March 17th that I was able to pull in the latest OpenSSL tar file. My test run had me prepared. An update guide was available that laid down how to go about this. I followed it to the T.
 
 Lo, and behold! The build failed.
 ![failed](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
 
-It's been a while since I looked at C++, so I was a little uncomfortable with how I could proceed. There was a stacktrace available, but it was overwhelming, especially, as I have not been expecting to run into trouble. I sent updates to the original issue and mustered the courage to begin debugging.
+It's been a while since I looked at C++, so I was a little uncomfortable with how I could proceed. There was a stacktrace available, but it was overwhelming, especially, as I had not been expecting to run into trouble. I sent updates to the original issue and mustered the courage to begin debugging.
 
 It took me about an hour to figure out the issue. The Makefiles in Node's build steps were expecting a certain directory structure in the OpenSSL files. This expectation was causing the build to fail as the directory structure had been modified.
 
