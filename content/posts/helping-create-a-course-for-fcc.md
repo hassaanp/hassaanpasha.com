@@ -1,7 +1,7 @@
 ---
-title: "Redesigning FreeCodeCamp's Shopping Cart Project to Teach OOP"
-date: 2020-03-25T17:06:21+05:00
-draft: true
+title: "Helping Redesign a Course for FreeCodeCamp"
+date: 2020-03-27T10:50:57+05:00
+draft: false
 ---
 
 Hey there.
