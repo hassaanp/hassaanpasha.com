@@ -10,8 +10,8 @@ class MyDocument extends Document {
     const meta = {
       title: "Hassaan's blog",
       description: 'See what I enjoy doing and what I am learning these days',
-      image:
-        'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+      image: 'https://hassaanpasha.com/dps.jpg',
+      favicon: 'https://hassaanpasha.com/favicon.ico'
     }
 
     return (
