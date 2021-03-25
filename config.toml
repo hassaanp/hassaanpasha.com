@@ -1,6 +1,0 @@
-baseURL = "http://hassaanpasha.com"
-languageCode = "en-us"
-title = "Hassaan | Pasha"
-theme = "hassaan-yin-yang"
-[params]
-disqus = "hassaanpasha-com"
