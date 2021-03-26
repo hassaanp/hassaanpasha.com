@@ -13,7 +13,7 @@ To help him isolate, I took my family back to Islamabad and that was the last ti
 
 Navigating his loss and supporting my family became the priority for the rest of the year. I am the eldest of four brothers and therefore, I had to muster the strength to help my mother and siblings through that time. My wife was extremely supportive and we mutually decided to leave Islamabad for good and shift to Lahore where we could all live together and support each other.
 
-During this time, Teamo has continued a stead and slow growth. We feel like things are picking up and with a new influx of client requests, we hope to kick our OKRs out of the ball park for this year. I have become more confident on front-end technologies like ReactJS and NextJS. I was fortunate to help clients build their entire products from scratch which has been a great learning experience.
+During this time, Teamo has continued a steady and slow growth. We feel like things are picking up and with a new influx of client requests, we hope to kick our OKRs out of the ball park for this year. I have become more confident on front-end technologies like ReactJS and NextJS. I was fortunate to help clients build their entire products from scratch which has been a great learning experience.
 
 I feel that now is the right time to re-evaluate my goals.
 
