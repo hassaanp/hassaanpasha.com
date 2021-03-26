@@ -7,9 +7,9 @@ author: Hassaan Pasha
 
 It has been a year since I was here. The year 2020 has been a hard year for everyone. Especially those who lost their loved ones.
 
-Like most countries, Pakistan also saw a surge in COVID cases towards the end of April 2020. During that time, I had started working at Teamo as a co-founder, and we had a lot of work to do to build our hiring and recruiting platforms. We were also helping new and existing clients build technology for their start-ups. I was visiting my parents at the time and it was in the start of May that my father got diagnosed with COVID.
+Like most countries, Pakistan also saw a surge in COVID cases towards the end of May 2020. During that time, I had recently started working at Teamo as a co-founder, and we had a lot of work to do to build our hiring and recruiting platforms. We were also helping new and existing clients build technology for their start-ups. I was visiting my parents at the time and it was in the start of June that my father got diagnosed with COVID.
 
-To help him isolate, I took my family back to Islamabad and that was the last time I saw him. His condition got progressively worse and he had to be hospitalized. He breathed his last on June 3rd 2020.
+To help him isolate, I took my family back to Islamabad and that was the last time I saw him. His condition got progressively worse and he had to be hospitalized. He breathed his last on July 3rd 2020.
 
 Navigating his loss and supporting my family became the priority for the rest of the year. I am the eldest of four brothers and therefore, I had to muster the strength to help my mother and siblings through that time. My wife was extremely supportive and we mutually decided to leave Islamabad for good and shift to Lahore where we could all live together and support each other.
 
