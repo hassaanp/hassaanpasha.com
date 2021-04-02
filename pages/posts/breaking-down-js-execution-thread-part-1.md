@@ -125,4 +125,4 @@ function average (a, b) {
 let result = average(num1, num2);
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rMjnAFPoGmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NvsCR0L0Z1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
