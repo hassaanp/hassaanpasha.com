@@ -22,7 +22,7 @@ class RSSReader
             return [
                 'id' => md5($file),
                 'title' => $data['title'] ?? basename($file, '.md'),
-                'link' => 'hassaanpasha.com/blog/' . basename($file, '.md'),
+                'link' => 'blog/' . basename($file, '.md'),
                 'summary' => $data['description'] ?? null,
                 'updated' =>  Carbon::parse(
                     $data['date']
