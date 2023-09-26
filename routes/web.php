@@ -1,5 +1,6 @@
 <?php
 
+use App\Actions\BlogReader;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -16,14 +17,23 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (BlogReader $reader) {
+    $blog = $reader->handle();
+
     return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
+        'blog' => $blog->sortByDesc('date')->values()->all()
     ]);
 });
+
+Route::get('/blog/{slug}', function (BlogReader $reader, $slug) {
+    $blog = $reader->handle();
+
+    $post = $blog->firstWhere('slug', $slug);
+
+    return Inertia::render('Blog/Post', [
+        'post' => $post
+    ]);
+})->name('blog.show');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
@@ -35,4 +45,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
