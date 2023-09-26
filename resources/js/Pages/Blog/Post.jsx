@@ -16,7 +16,7 @@ export default function Post({ post }) {
                         Home
                     </Link>
                 </div>
-                <div className="pt-12">
+                <div className="pt-12 pb-24">
                     <div
                         className="prose flex-grow max-w-none"
                         dangerouslySetInnerHTML={{
