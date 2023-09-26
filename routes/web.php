@@ -25,6 +25,8 @@ Route::get('/', function (BlogReader $reader) {
     ]);
 });
 
+Route::feeds();
+
 Route::get('/blog/{slug}', function (BlogReader $reader, $slug) {
     $blog = $reader->handle();
 
