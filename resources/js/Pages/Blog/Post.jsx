@@ -20,6 +20,16 @@ export default function Post({ post }) {
                     name="twitter:image:alt"
                     content={post.title + " - " + post.description}
                 />
+                {/* Open Graph meta tags */}
+                <meta property="og:title" content={post.title} />
+                <meta property="og:description" content={post.description} />
+                <meta
+                    property="og:image"
+                    content={`${window.location.href}/storage/screenshots/${post.slug}.jpg`}
+                />
+                <meta property="og:url" content={window.location.href} />
+                <meta property="og:type" content="article" />
+                <meta property="og:site_name" content="Hassaan's Blog" />
             </Head>
             <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="pt-16">
@@ -27,7 +37,7 @@ export default function Post({ post }) {
                         <div className="px-4">
                             <Link href="/">
                                 <img
-                                    className="inline-block h-14 w-14 rounded-full"
+                                    className="inline-block w-14 rounded-full object-cover object-center"
                                     src="/pp.jpg"
                                     alt=""
                                 />
@@ -43,6 +53,7 @@ export default function Post({ post }) {
                         </div>
                     </div>
                 </div>
+
                 <div className="pt-12 px-4 pb-24">
                     <div
                         className="prose flex-grow max-w-none"
