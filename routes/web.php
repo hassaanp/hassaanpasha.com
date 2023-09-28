@@ -17,6 +17,7 @@ use Inertia\Inertia;
 |
 */
 
+
 Route::get('/', function (BlogReader $reader) {
     $blog = $reader->handle();
 

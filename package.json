@@ -24,6 +24,7 @@
         "@tailwindcss/typography": "^0.5.10",
         "dayjs": "^1.11.10",
         "dompurify": "^3.0.5",
-        "marked": "^9.0.3"
+        "marked": "^9.0.3",
+        "puppeteer": "^21.3.5"
     }
 }
