@@ -14,7 +14,7 @@ export default function Post({ post }) {
                 <meta name="twitter:description" content={post.description} />
                 <meta
                     name="twitter:image"
-                    content={`/storage/screenshots/${post.slug}.jpg`}
+                    content={`${window.location.href}/storage/screenshots/${post.slug}.jpg`}
                 />
                 <meta
                     name="twitter:image:alt"
