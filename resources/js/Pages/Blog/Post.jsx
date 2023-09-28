@@ -14,7 +14,7 @@ export default function Post({ post }) {
                 <meta name="twitter:description" content={post.description} />
                 <meta
                     name="twitter:image"
-                    content={`https://${window.location.host}/storage/screenshots/${post.slug}.jpg`}
+                    content={`https://hassaanpasha.com/storage/screenshots/${post.slug}.jpg`}
                 />
                 <meta
                     name="twitter:image:alt"
@@ -25,11 +25,13 @@ export default function Post({ post }) {
                 <meta property="og:description" content={post.description} />
                 <meta
                     property="og:image"
-                    content={`https://${window.location.host}/storage/screenshots/${post.slug}.jpg`}
+                    content={`https://hassaanpasha.com/storage/screenshots/${post.slug}.jpg`}
                 />
                 <meta property="og:url" content={window.location.href} />
                 <meta property="og:type" content="article" />
                 <meta property="og:site_name" content="Hassaan's Blog" />
+
+                <meta property="og:url" content={`${window.location.href}`} />
             </Head>
             <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="pt-16">
