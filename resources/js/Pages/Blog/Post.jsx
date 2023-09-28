@@ -27,11 +27,12 @@ export default function Post({ post }) {
                     property="og:image"
                     content={`https://hassaanpasha.com/storage/screenshots/${post.slug}.jpg`}
                 />
-                <meta property="og:url" content={window.location.href} />
+                <meta
+                    property="og:url"
+                    content={`https://hassaanpasha.com/${post.slug}`}
+                />
                 <meta property="og:type" content="article" />
                 <meta property="og:site_name" content="Hassaan's Blog" />
-
-                <meta property="og:url" content={`${window.location.href}`} />
             </Head>
             <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="pt-16">
