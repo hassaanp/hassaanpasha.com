@@ -14,7 +14,7 @@ export default function Post({ post }) {
                 <meta name="twitter:description" content={post.description} />
                 <meta
                     name="twitter:image"
-                    content={`${window.location.href}/storage/screenshots/${post.slug}.jpg`}
+                    content={`https://${window.location.host}/storage/screenshots/${post.slug}.jpg`}
                 />
                 <meta
                     name="twitter:image:alt"
@@ -25,7 +25,7 @@ export default function Post({ post }) {
                 <meta property="og:description" content={post.description} />
                 <meta
                     property="og:image"
-                    content={`${window.location.href}/storage/screenshots/${post.slug}.jpg`}
+                    content={`https://${window.location.host}/storage/screenshots/${post.slug}.jpg`}
                 />
                 <meta property="og:url" content={window.location.href} />
                 <meta property="og:type" content="article" />
