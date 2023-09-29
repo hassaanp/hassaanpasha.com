@@ -6,8 +6,6 @@ tag: AI
 author: Hassaan Pasha
 ---
 
-# Thoughts on AI and the future of software development
-
 Last week, OpenAI unveiled four groundbreaking features. While many are discussing these innovations, I'd like to address a broader concern: the future of software engineering in an AI-driven world. Will AI render programmers obsolete, or will it redefine traditional software development cycles and roles?
 
 These concerns are valid, especially given the rapid advancements in AI. While I may not have all the answers, I'd like to share my perspective on the evolving landscape.

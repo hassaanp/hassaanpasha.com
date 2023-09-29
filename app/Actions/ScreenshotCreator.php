@@ -26,6 +26,11 @@ class ScreenshotCreator
     private function takeScreenshot($slug)
     {
         $url = url('/blog/' . $slug);
+        // check if the file already exists
+        if (file_exists(storage_path('app/public/screenshots/' . $slug . '.jpg'))) {
+            return;
+        }
+
         Browsershot::url($url)
             ->windowSize(600, 315)
             ->save(storage_path('app/public/screenshots/' . $slug . '.jpg'));
