@@ -1,6 +1,7 @@
 <?php
 
 use App\Actions\BlogReader;
+use App\Actions\NotionReader;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -27,6 +28,8 @@ Route::get('/', function (BlogReader $reader) {
 });
 
 Route::feeds();
+
+Route::get('/blog/notion/read', NotionReader::class)->name('notion.read')->middleware('admin');
 
 Route::get('/blog/{slug}', function (BlogReader $reader, $slug) {
     $blog = $reader->handle();
