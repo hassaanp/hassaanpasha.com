@@ -33,6 +33,7 @@ class ScreenshotCreator
 
         Browsershot::url($url)
             ->windowSize(600, 315)
+            ->noSandbox()
             ->save(storage_path('app/public/screenshots/' . $slug . '.jpg'));
     }
 }
