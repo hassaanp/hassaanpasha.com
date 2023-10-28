@@ -14,6 +14,7 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')->hourly();
         $schedule->command('notion:read')->everyFifteenMinutes();
+        $schedule->command('blog:screenshot')->everyThirtyMinutes();
     }
 
     /**
