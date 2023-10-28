@@ -74,10 +74,6 @@ EOD;
             Storage::disk('local')->put('blog/' . $slug . '.md', $markdown);
         }
 
-        $screenshotProcess = new Process(['php', 'artisan', 'blog:screenshot']);
-        $screenshotProcess->setWorkingDirectory(base_path()); // Ensure we're in the root directory of the project
-        $screenshotProcess->run();
-
         $process = new Process(['npm', 'run', 'build']);
         $process->setWorkingDirectory(base_path()); // Ensure we're in the root directory of the project
         $process->run();
