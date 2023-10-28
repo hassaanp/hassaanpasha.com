@@ -40,6 +40,11 @@ class NotionReader
 
         // filter the blogs which are published
         $blogs = array_filter($blogs, function ($blog) {
+            // if blog has no title, ignore it
+            if (!isset($blog->title)) {
+                return false;
+            }
+
             $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $blog->title)));
             return !Storage::disk('local')->exists('blog/' . $slug . '.md');
         });
@@ -68,6 +73,10 @@ EOD;
             // write to file
             Storage::disk('local')->put('blog/' . $slug . '.md', $markdown);
         }
+
+        $screenshotProcess = new Process(['php', 'artisan', 'blog:screenshot']);
+        $screenshotProcess->setWorkingDirectory(base_path()); // Ensure we're in the root directory of the project
+        $screenshotProcess->run();
 
         $process = new Process(['npm', 'run', 'build']);
         $process->setWorkingDirectory(base_path()); // Ensure we're in the root directory of the project
